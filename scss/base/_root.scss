@@ -1,0 +1,105 @@
+:root {
+  --clr-dark-blue: hsl(219, 43%, 16%);
+  --clr-blue: hsl(218, 20%, 38%);
+  --clr-gray: hsl(30, 33%, 93%);
+  --clr-light-gray: hsl(30, 29%, 97%);
+  --clr-violet: hsl(264, 100%, 69%);
+  --clr-pink: hsl(292, 76%, 54%);
+  --clr-orange: hsl(31, 100%, 65%);
+
+  --bg-button: linear-gradient(
+    135deg,
+    #a060ff 0%,
+    #cb30e3 49.21%,
+    #ffa84e 100%
+  );
+
+  --ff-primary: "Epilogue", sans-serif;
+
+  --fw-400: 400;
+  --fw-700: 700;
+
+  --fs-heading-xl: 2.375rem;
+  --lh-heading-xl: 2.75rem;
+  --ls-heading-xl: -0.032986125rem;
+
+  --fs-heading-l: 3rem;
+  --lh-heading-l: 3.5rem;
+  --ls-heading-l: -0.03125rem;
+
+  --fs-heading-h3: 2.5rem;
+  --lh-heading-h3: 3rem;
+  --ls-heading-h3: -0.0260416875rem;
+
+  --fs-heading-m: 1.125rem;
+  --lh-heading-m: 2rem;
+  --ls-heading-m: -0.01125rem;
+
+  --fs-heading-s: 1rem;
+  --lh-heading-s: 1.625rem;
+  --ls-heading-s: 0.15625rem;
+
+  --fs-quote: 1.125rem;
+  --lh-quote: 2rem;
+  --ls-quote: 0.005625rem;
+
+  --fs-body: 1rem;
+  --lh-body: 1.75rem;
+  --ls-body: 0.00555555625rem;
+
+  --fs-footer: 0.9375rem;
+  --lh-footer: 2rem;
+  --ls-footer: 0.00520833125rem;
+
+  --fs-button: 0.875rem;
+  --lh-button: 1.5rem;
+  --ls-button: -0.00875rem;
+
+  --container-width: 1rem;
+  --hero-width: 3.5rem;
+  --line-width: 2rem;
+  --line-2-width: 2rem;
+  --review-width: 1rem;
+  --p-margin-2: 2rem;
+  --p-margin-25: 2.5rem;
+  --header-width: 1.5rem;
+
+  @media (min-width: 48em) {
+    --fs-heading-xl: 3.5rem;
+    --lh-heading-xl: 4rem;
+    --ls-heading-xl: -0.048611125rem;
+
+    --fs-heading-h3: 3rem;
+    --lh-heading-h3: 3.5rem;
+    --ls-heading-h3: -0.03125rem;
+
+    --fs-button: 1rem;
+    --lh-button: 2rem;
+    --ls-button: -0.01rem;
+
+    --p-margin-2: 2.5rem;
+
+    --container-width: 2.5rem;
+    --review-width: 3.5rem;
+    --header-width: 2.5rem;
+  }
+
+  @media (min-width: 90em) {
+    --fs-heading-xl: 4.2rem;
+    --lh-heading-xl: 4.875rem;
+    --ls-heading-xl: 0.0625rem;
+
+    --fs-quote: 1.25rem;
+    --lh-quote: 2.1875rem;
+    --ls-quote: 0.00625rem;
+
+    --fs-body: 1.125rem;
+    --lh-body: 2rem;
+    --ls-body: 0.00625rem;
+
+    --container-width: 10.375rem;
+    --review-width: 7.8125rem;
+    --line-2-width: 3.5rem;
+    --header-width: 3.2rem;
+  }
+}
